@@ -1,10 +1,10 @@
 ---
 layout:       post
 title:        "别忘了我就好"
-subtitle:     "帮《不爱我就拉倒填个词》"
+subtitle:     "帮《不爱我就拉倒》填个词"
 date:         2018-05-22 11:43:18
 author:       "MIAOKO"
-header-img:   "img/in-post/post-eleme-pwa/eleme-at-io.jpg"
+header-img:   "img/in-post/post-headimg/jay。png"
 header-mask:  0.3
 catalog:      true
 tags:
