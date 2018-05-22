@@ -87,11 +87,7 @@ service-worker: true
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        {
         title: "XXX",
-        href: "http://XXXX/"
+        href: "http://XXXXe/"
     }
 ]
