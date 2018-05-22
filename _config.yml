@@ -5,17 +5,17 @@ header-img: img/home-bg.jpg
 email: miaoko@my.com
 description: "这里是 @miaoko32 的个人博客，与你一起发现更大的世界。"
 keyword: "陈昱行,GIS,miaoko,miaoko 陈昱行"
-url: "https://huangxuan.me"              # your host, for absolute URL
+url: "https://miaoko.site"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
+weibo_username:     MIAOKO32
+zhihu_username:     MIAOKO32
 github_username:    MIAOKO32
-twitter_username:   huxpro
+twitter_username:   MIAOKO32
 #facebook_username:  huxpro
 # linkedin_username:  firstname-lastname-idxxxx
 
@@ -90,34 +90,8 @@ friends: [
     #     title: "Su",
     #     href: "http://su.gallery/"
     # },{
-        title: "乱序",
-        href: "http://mida.re/"
-    },{
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
-    },{
-        title: "天镶的博客",
-        href: "http://lingyu.wang/"
-    },{
-        title: "Luke 的自留地",
-        href: "http://hmqk1995.github.io"
-    },{
-        title: "Ebn's Blog",
-        href: "http://ebnbin.com/"
-    },{
-        title: "SmdCn's Blog",
-        href: "http://blog.smdcn.net"
-    },{
-        title: "David's Game",
-        href: "https://www.ruoyaowu.com/"
-    },{
-        title: "DHong Say",
-        href: "http://dhong.co"
-    },{
-        title: "尹峰以为",
-        href: "http://ingf.github.io/"
-    },{
-        title: "解旻的博客",
-        href: "http://xieminis.me/"
+        {
+        title: "XXX",
+        href: "http://XXXX/"
     }
 ]
