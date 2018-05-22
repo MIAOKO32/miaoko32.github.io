@@ -15,9 +15,9 @@ tags:
 > 瞎写
 
 
-##别忘了我就好
+## 别忘了我就好
 
-原歌地址在[不爱我就拉倒][https://y.qq.com/n/yqq/song/0031TAKo0095np.html?ADTAG=baiduald&play=1]
+原歌地址在[不爱我就拉倒](https://y.qq.com/n/yqq/song/0031TAKo0095np.html?ADTAG=baiduald&play=1).
 
 <br>六月来的 好早
 <br>这次轮到我们丢学士帽
