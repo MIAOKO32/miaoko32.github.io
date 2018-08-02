@@ -51,7 +51,7 @@ Mac 的 **Terminal** 支持直接建立远程连接，Shell -> New Remote Connec
 
 ### Shadowsocks-libev
 之前参考的文章用的多是Shadowsocks的原版，因为 **某些原因** 仓库已经清空了，发现libev这个版本，看介绍好像是作者用C++写的，更轻量。
-<br>首先安装 **Shadowsocks-lib** （Debian 9）其他系统可以去[项目仓库][https://github.com/shadowsocks/shadowsocks-libev].
+<br>首先安装 **Shadowsocks-lib** （Debian 9）其他系统可以去[项目仓库]（https://github.com/shadowsocks/shadowsocks-libev）.
 <br>执行以下命令。
 ````
 sh -c 'printf "deb http://deb.debian.org/debian stretch-backports main" > /etc/apt/sources.list.d/stretch-backports.list'
