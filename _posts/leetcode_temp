@@ -1,0 +1,128 @@
+margin-right 实现搜索框居右
+The following list summarizes other Editor icons that are available:
+
+dijitEditorIconSep
+
+dijitEditorIconBackColor
+
+dijitEditorIconBold
+
+dijitEditorIconCancel
+
+dijitEditorIconCopy
+
+dijitEditorIconCreateLink
+
+dijitEditorIconCut
+
+dijitEditorIconDelete
+
+dijitEditorIconForeColor
+
+dijitEditorIconHiliteColor
+
+dijitEditorIconIndent
+
+dijitEditorIconInsertHorizontalRule
+
+dijitEditorIconInsertImage
+
+dijitEditorIconInsertOrderedList
+
+dijitEditorIconInsertTable
+
+dijitEditorIconInsertUnorderedList
+
+dijitEditorIconItalic
+
+dijitEditorIconJustifyCenter
+
+dijitEditorIconJustifyFull
+
+dijitEditorIconJustifyLeft
+
+dijitEditorIconJustifyRight
+
+dijitEditorIconLeftToRight
+
+dijitEditorIconListBulletIndent
+
+dijitEditorIconListBulletOutdent
+
+dijitEditorIconListNumIndent
+
+dijitEditorIconListNumOutdent
+
+dijitEditorIconOutdent
+
+dijitEditorIconPaste
+
+dijitEditorIconRedo
+
+dijitEditorIconRemoveFormat
+
+dijitEditorIconRightToLeft
+
+dijitEditorIconSave
+
+dijitEditorIconSpace
+
+dijitEditorIconStrikethrough
+
+dijitEditorIconSubscript
+
+dijitEditorIconSuperscript
+
+dijitEditorIconUnderline
+
+dijitEditorIconUndo
+
+dijitEditorIconWikiword
+
+dijitEditorIconToggleDir
+
+
+
+
+ested sucessfully with Dojo 1.10 . Use registry instead of "dijit.byId()". The method resize() only works on the dijit.layout.BorderContainer.
+
+define([
+    "dijit/registry" // registry
+], function(registry) {
+
+    var show = true;
+
+    if (show) {
+        domStyle.set(registry.byId("dijitLayoutContentPane").domNode, {'display': 'block'});
+        registry.byId("dijitLayoutBorderContainer").resize();
+    } else {
+        domStyle.set(registry.byId("dijitLayoutContentPane").domNode, {'display': 'none'});
+        registry.byId("dijitLayoutBorderContainer").resize();
+    }
+
+}
+
+resize（） only work on BorderContainer
+
+
+dom.ready
+
+
+原因：变量html没有初始化就会出现undefined。undefined和字符串连接会保留undefined这个字符串。
+
+修改：var html='';       //给变量进行初始化页面没有undefined了。
+
+补充：经查阅资料，页面出现undefined的原因还有：
+
+1.ajax动态请求数据有部分空数据也会显示undefined，意思是在数据库中一条数据有空字段，会在页面中显示undefined。
+
+解决办法：可以用三元运算符来进行判断，若为空则显示空格，否则显示自己。
+
+lists.type==undefined？'':lists.type;
+
+
+
+JSON,parse  JSON.stringifiy
+
+
+maven build version -1.5
