@@ -1,11 +1,11 @@
 # Site settings
-title: MIAOKO BLOG
-SEOTitle: 陈昱行的博客 | Miaoko Blog
+title: HANG WORDS
+SEOTitle: 陈昱行的博客 | HANG WORDS
 header-img: img/post-bg-rwd.jpg
 email: miaoko@my.com
 description: "这里是 @miaoko32 的个人博客，与你一起发现更大的世界。"
 keyword: "陈昱行,GIS,miaoko,miaoko 陈昱行"
-url: "https://miaoko.site"              # your host, for absolute URL
+url: "yuhang.ch"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
