@@ -4,7 +4,7 @@ title:      "抢票这门生意"
 subtitle:   " the business of tickets"
 date:       2019-01-03
 author:     "Yuhang"
-header-img: "img/post-spring-travel.jpg"
+header-img: "img/post-ticket.png"
 catalog: true
 tags:
     - 随想
